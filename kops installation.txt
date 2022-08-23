@@ -36,6 +36,7 @@ Setup Kubernetes (K8s) Cluster on AWS Using KOPS
  aws s3 ls
 
 5) Create an IAM role from Consloe or CLI with below Policies.
+sudo apt install awscli -y
 
 	AmazonEC2FullAccess 
 	AmazonS3FullAccess
